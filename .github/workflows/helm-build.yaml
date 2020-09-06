@@ -31,4 +31,4 @@ jobs:
           URL: https://harbor.lhaidacher.com/chartrepo/onlineshop
           NAME: ${{ secrets.HARBOR_USERNAME }}
           PW: ${{ secrets.HARBOR_PASSWORD }}
-        run: helm push search-service-chart-* ${{ env.URL }} -u ${{ env.NAME }} -p ${{ env.PW }}
+        run: helm push inventory-service-chart-* ${{ env.URL }} -u ${{ env.NAME }} -p ${{ env.PW }}
