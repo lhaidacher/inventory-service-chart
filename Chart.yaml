@@ -3,4 +3,4 @@ name: inventory-service-chart
 description: Helm chart for at.fhj.swd.inventory-service
 type: application
 version: 1.0.0
-appVersion: 'sha-b5a6882'
+appVersion: 'sha-9e3e434'
