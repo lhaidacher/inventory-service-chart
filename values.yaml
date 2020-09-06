@@ -1,13 +1,13 @@
 replicaCount: 1
 
 image:
-  repository: harbor.lhaidacher.com/onlineshop/search-service
+  repository: harbor.lhaidacher.com/onlineshop/inventory-service
   pullPolicy: IfNotPresent
 
 imagePullSecrets:
 - name: regcred
 
-fullnameOverride: "search-service"
+fullnameOverride: "inventory-service"
 
 serviceAccount:
   # Specifies whether a service account should be created

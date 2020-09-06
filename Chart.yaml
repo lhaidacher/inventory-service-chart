@@ -1,6 +1,6 @@
 apiVersion: v2
-name: search-service-chart
-description: Helm chart for at.fhj.swd.search-service
+name: inventory-service-chart
+description: Helm chart for at.fhj.swd.inventory-service
 type: application
-version: 3.0.0
+version: 1.0.0
 appVersion: 'sha-b5a6882'
